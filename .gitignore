@@ -1,0 +1,48 @@
+# ---- General OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors/IDE ----
+.vscode/
+.vs/
+.idea/
+
+# ---- .NET / Visual Studio ----
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pdb
+*.cache
+
+# ---- Logs ----
+*.log
+logs/
+
+# ---- Node/JS (if present) ----
+node_modules/
+
+# ---- Environment files ----
+.env
+.env.*
+.env.local
+.env.*.local
+
+# ---- ASP.NET Core appsettings (keep templates only) ----
+appsettings.json
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+
+# ---- Publish/Build outputs ----
+publish/
+
+# ---- Test/Coverage ----
+TestResult*/
+TestResults/
+coverage/
+
